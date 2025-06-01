@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
     react()],
-    base: "/expense-tracker",
+    base: "/expense-tracker/",
     resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
